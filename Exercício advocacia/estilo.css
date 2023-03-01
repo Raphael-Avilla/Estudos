@@ -1,0 +1,102 @@
+/* ========= GERAIS DA PÁGINA ========= */
+
+body {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.tamanho-pagina {
+    width: 600px;
+    text-align: justify;
+    margin: auto;
+}
+
+.titulos {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-family: tahoma;
+}
+
+/* ======= TOPO DA PÁGINA ========*/
+
+.topo {
+    height: 35px;
+}
+
+.topo h1 {
+    margin: 5px 0 5px 0;
+    font-size: 16px;
+    font-family: Tahoma;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/* =========== BANNER PRINCIPAL ============*/
+
+.banner-principal{
+    background-image: url(img/capa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+}
+
+.texto-banner-principal {
+    text-align: right;
+    padding-top: 30px;
+    font-weight: bold;
+    font-family: tahoma;
+}
+
+/* ============= SOBRE ============== */
+
+.sobre {
+    font-family: tahoma;
+    padding-bottom: 40px;
+}
+
+.sobre-imagens img {
+    height: 150px;
+    width: 196px;
+    margin: o 1px 0 1px;
+}
+
+.borda-esquerda {
+    border-left: solid;
+    padding-left: 5px;
+}
+
+/* ============= IMAGEM FIXA ========= */
+
+.imagem-fixa {
+    background-image: url(img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 520px;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.titulo-imagemfixa {
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    border: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 150px;
+    font-size: 20px;
+    font-family: tahoma;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.bloco-branco {
+    background-color: white;
+    height: 300px;
+    padding-top: 30px;
+    margin: auto;
+}
